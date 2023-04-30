@@ -9,7 +9,8 @@ The device may be programmmed via the USB C connector, by entering boot mode (se
 ```
 jag flash --chip esp32s2
 ```
-The Toit console is available on JP2 (TXD0/RXD0), not via the USB C connector (IO19,20) so a little soldering is required.
+The Toit console is available on JP2 (TXD0/RXD0), not via the USB C connector (IO19,20) so a little soldering is required.  
+For the cable in Ref5. RX/TX/GND were connected.
 
 ## Progress:
 
