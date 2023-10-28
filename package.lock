@@ -1,7 +1,20 @@
 prefixes:
+  lis3dh: lis3dh
+  pixel_display: toit-pixel-display
   pixel_strip: toit-pixel-strip
 packages:
+  lis3dh:
+    url: github.com/nilwes/lis3dh
+    name: lis3dh
+    version: 2.1.0
+    hash: 204423155a8338cfc89549cda9f807a9fc2f4757
+  toit-pixel-display:
+    url: github.com/toitware/toit-pixel-display
+    name: pixel_display
+    version: 1.6.1
+    hash: 61693447fcf73e7dd4044780fd7991c2d371b7ec
   toit-pixel-strip:
     url: github.com/toitware/toit-pixel-strip
+    name: pixel_strip
     version: 0.3.0
     hash: 6afc86f08e0e751a58a4f56b119d5e14464a4762

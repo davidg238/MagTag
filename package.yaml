@@ -1,6 +1,10 @@
-name: magtag
-description: A board support package (BSP) for the Adafruit MagTag
 dependencies:
+  lis3dh:
+    url: github.com/nilwes/lis3dh
+    version: ^2.1.0
+  pixel_display:
+    url: github.com/toitware/toit-pixel-display
+    version: ^1.6.1
   pixel_strip:
     url: github.com/toitware/toit-pixel-strip
     version: ^0.3.0

@@ -1,0 +1,25 @@
+{
+  "version": 1,
+  "name": "magtag",
+  "sdk-version": "v2.0.0-alpha.79",
+  "artemis-version": "v0.5.2",
+  "chip": "esp32s2",
+  "max-offline": "2m",
+  "connections": [
+    {
+      "type": "wifi",
+      "ssid": "inet",
+      "password": "bubbles14"
+    }
+  ],
+  "containers": {
+    "neopixels": {
+      "entrypoint": "neopixels.toit",
+      "triggers": [
+        "boot",
+        "install",
+        { "interval": "1m" }
+      ]
+    }
+  }
+}
